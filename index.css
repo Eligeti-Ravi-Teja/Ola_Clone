@@ -1,0 +1,617 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gabarito', cursive;
+    /* width: 100%; */
+
+}
+/* -------------------------------------------------------navbar----------------------------------------------------------- */
+nav{
+    background-color: black;
+    font-family: 'Gabarito', cursive;
+    color: #fff;
+    text-transform: capitalize;
+    height: 64px;
+    
+}
+
+nav section ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    /* text-align: center; */
+    align-items: center;
+    /* margin-right: 50px; */
+    font-size: 0.9em;
+}
+nav section{
+    /* border: 2px solid red; */
+    width: 89%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: inherit;
+}
+nav section ol li{
+    margin-right: 40px;
+}
+nav section ol+ol li{
+    margin-right: 30px;
+}
+
+nav section ol+ol #a{
+    background-color: rgba(255, 255, 255, 0.17);
+    padding: 12px 10px; 
+}
+nav section ol+ol #b{
+    background-color: #fff;
+    color: black;
+    padding: 12px 10px;
+}
+/* -------------------------------------------------------navbar----------------------------------------------------------- */
+/* ----------------------------------------------------------part2-------------------------------------------------------------- */
+#part2{
+    background-image: url("./media/hero-banner.webp");
+    height: 50vh;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    /* z-index: -1.1; */
+}
+#part2 h1{
+    font-weight: 500;
+    font-size: 50px;
+    position: relative;
+    top:120px;
+    left: 280px;
+    /* text-transform: capitalize; */
+}
+#p2sub1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:white;
+    /* z-index: 1.2; */
+    color:black;
+    width: 23%;
+    padding: 15px 0px;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 280px;
+
+}
+#p2sub1 div{
+    text-decoration: underline;
+}
+#part2>article{
+    height: 100px;
+    background-color: #F2F4F6;
+    color: black;
+    margin-top: 165px;
+    width: 60%;
+    margin-left:280px ;
+   
+}
+#part2>article{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#part2>article input, #part2>article button{
+    height: 45px;
+    width: 250px;
+}
+#part2>article button{
+    background-image: url("https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/ola_cabs_back.svg "),radial-gradient(127.68% 2996.56% at 12.65% 127.68%, #000000 0%, #222222 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: -3px 3px 0 #32c86e;
+}
+
+#part2>article button span{
+    color: #32c86e;
+    /* text-align: left; */
+   
+}
+#img img{
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 280px;
+   
+
+}
+/* -------------------------------------------------------part2--------------------------------------------------------------- */
+/* ----------------------------------------------------------part3--------------------------------------------------------------- */
+#part3{
+    margin-top: 100px;
+}
+#part3>h1{
+    text-align: center;
+    font-size: 2.8em;
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
+}
+#part3>div{
+    padding-top: 60px;
+    display: flex;
+    margin: auto;
+    width: 70%;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 45px;
+}
+#part3>div>article>img{
+    height: 200px;
+    width: auto;
+}
+#part3>div>article h1{
+    font-size:40px;
+}
+#part3 div article p{
+    line-height: 25px;
+    color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 0;
+    font-size: 15px;
+}
+/* ----------------------------------------------------------------------------------------------------------------- */
+#part4,#part6,#part9,#part11,#part13{
+    margin-top: 100px;
+    height: 1200px;
+    width: 100%;
+    background-color: #000000;
+    transform: skewY(-2deg);
+}
+#part4>h1,#part6>h1{
+    margin-left: 230px;
+    font-size: 2.8em;
+    text-shadow: 1.152px 1.152px 0px #000000, 1.728px 1.728px 0px #92C83E;
+    color: white;
+    transform: skewY(2deg);
+    padding-top: 100px;
+}
+#part4>div{
+    display: flex;
+    justify-content: center;
+}
+#part4 img{
+    width: 70%;
+    transform: skewY(2deg);
+    /* text-align: center; */
+    align-items: center;
+    margin-top: 50px;
+}
+#part4 aside{
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 70%;
+    display: flex;
+    color: white;
+    transform: skewY(2deg);
+    justify-content: space-between;
+    line-height: 25px;
+}
+#part4 aside p{
+    color: gray;
+    font-size: 15px;
+}
+#part4 aside>p>span{
+    /* padding-top: 30px; */
+    color: #32c86e;
+}
+#part4 aside div{
+    padding: 15px 30px 20px;
+    /* border: 2px solid red; */
+    /* box-shadow: gray; */
+    border-image: linear-gradient(rgb(141 141 141),rgba(255, 255, 255, 0)) 15;
+    border-style: solid;
+    background-color: #151616;
+}
+#part4 aside div >h1{
+    font-size: 30px;
+    font-weight: 100;
+}
+#part4 aside div >h1>span{
+    font-size: 15px;
+}
+#part4>img{
+    height: 120px;
+    margin-left: 230px;
+}
+/* ===================================================================================================================== */
+#part5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 100px;
+}
+#part5>h1,#part7>h1,#part9>h1,#part10>h1{
+    
+    font-size: 2.8em;
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
+    margin-left: 220px;
+
+}
+#part5 div{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    
+}
+/* #part5 div> article */
+#part5 div article{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 60px;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    display: flex;
+}
+#part5 div article p{
+    height: auto;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #F0F4F4;
+    padding:100px 40px;
+}
+#part5 div article p>span{
+    color: #000000;
+}
+#part5 div article img{
+    width: 70%;
+}
+/* ======================================== */
+#part6 video{
+    width: 70%;
+    transform: skewY(2deg);
+    margin-top: 50px;
+    margin-left: 220px;
+}
+/* ======================== */
+#part7>h1{
+    margin-top: 150px;
+}
+#part7 div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+}
+#part7 div h1{
+    margin: 25px 0px;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+#part7 div p{
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: 1.2px;
+    font-size: 16px;
+}
+#part7 div p span{
+    color: #000;
+}
+/* ================================================================================ */
+#part8>div{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+
+    /* text-align: center; */
+    /* justify-content: space-evenly; */
+}
+#part8 div video{
+    width: 45%;
+}
+#part8 div article {
+    text-align: center;
+    padding-left: 30px;
+}
+#part8 div article>h1{
+    font-size: 2.8em;
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
+}
+#part8>div article .progress-bar{
+    width: 4px;
+    height: 130px;
+    animation-name: loader;
+    background: rgba(22, 170, 81, 0.24);
+    background-image: -webkit-linear-gradient( top, #16AA51 0%, #16AA51 50%, rgba(22, 170, 81, 0.24) 50.001%, rgba(22, 170, 81, 0.24) 100% );;
+}
+
+#part8>div article aside{
+    margin-top: 80px;
+    display: flex;
+}
+#part8>div article aside #data h1{
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-left: 50px;
+}
+#part8>div article aside #data p{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    margin-left: 50px;
+
+}
+/* =========================================================================== */
+#part9{
+    background-color: rgb(241, 246, 233);
+    height: 1100px;
+}
+#part9>h1,#part11>h1{
+    font-size: 2.8em;
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
+    transform: skewY(2deg);
+    padding-top: 100px;
+}
+#part9>.main div{
+    transform: skewY(2deg);
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+#part9>.main div img{
+    width: 60%;
+}
+
+#part9>.main div article h1{
+    font-size: 24px;
+    margin-top: 30px;
+    line-height: 40px;
+    padding-left: 80px;
+
+}
+#part9>.main div article>p{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-left: 80px;
+
+}
+#part9>.main div article>p span{
+    color: #16AA51;
+    background:rgba(22, 170, 81, 0.1);
+    letter-spacing: normal;
+    font-size: 15px;
+    padding: 8px;
+
+}
+#part9>.main div article>div{
+    transform: skewY(-2deg);
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 180px;
+}
+#part9>.main div>article>div>aside>img{
+    transform: skewY(2deg);
+    width: 60px;
+}
+#part9>.main div>article>div>aside p{
+    font-size: 12px;
+    transform: skewY(2deg);
+
+    /* font-weight: 200; */
+    color: rgba(0, 0, 0, 0.6);
+
+}
+#part9>.main>article{
+    transform: skewY(2deg);
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+#part9>.main>article P{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+#part9>.main>article h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+    
+}
+#part9>.main>article h2{
+    padding-top: 30px;
+    font-size: 20px;
+    color: #16AA51;
+}
+/* ============================ */
+#part10>h1{
+    margin-top: 100px;
+}
+#part10 .outer{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    /* justify-content: space-between; */
+}
+#part10 .outer .left{
+    display: flex;
+    flex-direction: column;
+   
+}
+#part10 .outer .left img{
+    padding-top: 15px;
+}
+#part10 .outer .right {
+    padding-left: 15px;
+}
+#part10 .outer .right div{
+    display: flex;
+    justify-content: space-around;
+}
+#part10 .outer .left p, #part10 .outer .right p{
+    font-family: Arial, Helvetica, sans-serif;
+    /* letter-spacing: px; */
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 15px 0px;
+}
+#part10>h2{
+    color: #16AA51;
+    margin-left: 230px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+/* =========================================== */
+#part11{
+    background-color: rgb(242, 244, 240);
+    height: 600px;
+}
+#part11>h1{
+    margin-left: 220px;
+}
+#part11>div{
+    transform: skewY(2deg);
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+#part11>div article{
+    width: 18%;
+}
+#part11 .a{
+    width: 200px;
+}
+#part11 .b{
+    width: 100%;
+}
+#part11>div article h1{
+    padding: 10px 0px;
+    font-size: 18px;
+}
+#part11>div article h2{
+    color: #16AA51;
+    font-size: 20px;
+    margin-top: 10px;
+}
+/* ===================================================== */
+#part12 h1{
+    margin-left: 220px;
+    margin-top: 100px;
+    font-size: 45px;
+}
+#part12>div{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 35px;
+   
+}
+
+#part12 #one{
+    background: radial-gradient(100% 100% at 28.66% 0%, #F4F8FC 0%, #D8DDE6 100%);;
+    padding: 20px 35px;
+    
+}
+#part12>div img{
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+#part12 #two{
+    background:  radial-gradient(100% 100% at 28.66% 0%, #F9FCF4 0%, #E0E6D8 100%);;
+    padding: 20PX 35PX;
+}
+#part12 #three{
+    background:  radial-gradient(100% 100% at 28.66% 0%, #F9FCF4 0%, #E0E6D8 100%);
+    padding: 20px 35px;
+}
+#part12>div span{
+    padding-left: 100px;
+}
+#part12>div #two span{
+    padding-left: 200px;
+}
+#part12>div #three span{
+    padding-left: 100px;
+}
+#part12>div p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 15px 0px;
+    padding-bottom: 5px;
+
+}
+/* =================================== */
+#part13{
+    background: #F2F4F6;
+    height: 400px;
+}
+#part13>div{
+    transform: skewY(2deg);
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+#part13 article ol li{
+    list-style: none;
+    padding-bottom: 15px;
+    color: rgba(0, 0, 0, 0.6);;
+}
+#part13 article ol li input{
+    height: 45px;
+    width: 200px;
+}
+#part13 article ol li button{
+    background-image: url("https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/ola_cabs_back.svg "),radial-gradient(127.68% 2996.56% at 12.65% 127.68%, #000000 0%, #222222 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 20px;
+    height: 50px;
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: -3px 3px 0 #32c86e;
+}
+#part13 article ol li button span{
+    color: #16AA51;
+}
+#part13>footer{
+    transform: skewY(2deg);
+    height: 1px;
+    width: 100%;
+    background: gray;
+}
+#part13>ol{
+    transform: skewY(2deg);
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.6);;     
+
+}
+#part13>ol li{
+    list-style: none;
+    font-size: 10px;
+}
+#part13>ol li ul{
+    display: flex;
+    width: 100%;
+    /* width: 70%; */
+    margin: auto;
+    justify-content: space-between;
+}
+#part13 ul li{
+    text-decoration: underline;
+    padding-left: 25px;
+}
+
+
